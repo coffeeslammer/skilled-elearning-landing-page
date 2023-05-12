@@ -1,0 +1,50 @@
+ .background-upper {
+     position: relative;
+     height: 481px;
+     width: 375px;
+     background-color: #24053e;
+     color: #fff;
+     overflow: hidden;
+     /* overflow: visible; */
+     /* clip-path: circle(80%); */
+     /* clip-path: circle(270px); */
+     /* text-align: center; */
+ }
+
+ .background-upper:after {
+     content: "";
+     position: absolute;
+     bottom: -20%;
+     height: 481px;
+     left: -5%;
+     right: -5%;
+     /* width: 100%; */
+     /* height: 00%; */
+     /* shape-outside: circle(50%); */
+     background-color: #fff;
+     /* clip-path: circle(54%); */
+     clip-path: ellipse(60% 20%)
+         /* z-index: 4; */
+ }
+
+ .container {
+     margin: 0 auto;
+     width: 500px;
+     height: 400px;
+     background-color: lightblue;
+     position: relative;
+     overflow: hidden;
+ }
+
+ .container:after {
+     content: "";
+     position: absolute;
+     bottom: 0;
+     right: -5%;
+     left: -5%;
+     height: 120px;
+     background: #fff;
+     /* -webkit-clip-path: ellipse(50% 60% at 50% 100%); */
+     /* clip-path: ellipse(50% 60% at 50% 100%); */
+     clip-path: circle(250px);
+ }
