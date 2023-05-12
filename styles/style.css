@@ -25,7 +25,121 @@ h3 {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(to top, #f1f3ff, #FFFFFF);
+    padding: 1.5rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: .75rem 1.5rem;
+    border-radius: 2rem;
+}
+
+header button {
+    background-color: #13183F;
+
+}
+
+h1 {
+    color: #13183F;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+main p {
+    color: #83869A;
+}
+
+.btn-started-gradient-orange {
+    background-image: linear-gradient(to top, #F02AA6, #FF6F48);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.article-container {
+    display: grid;
+    gap: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+aside {
+    background-image: linear-gradient(to top, #F02AA6, #FF6F48);
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.article-base-design {
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.icons {
+    position: absolute;
+    top: -1.5rem;
+}
+
+.article-base-design h2 {
+    font-size: 1.25rem;
+    color: #13183F;
+    margin-top: 4rem;
+}
+
+.article-base-design p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #83869A;
+}
+
+.article-base-design a {
+    color: #F74780;
+    font-weight: 700;
+    font-size: 1.125rem;
+    /* padding-bottom: 2rem; */
+}
+
+footer {
+    background-color: #13183F;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+footer button {
+    background-image: linear-gradient(to bottom, #4851FF, #F02AA6);
+
 }
