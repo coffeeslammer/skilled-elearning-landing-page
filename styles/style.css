@@ -35,12 +35,14 @@ body {
     align-items: center;
     height: 100vh;
     font-family: 'Plus Jakarta Sans', sans-serif;
+
 }
 
 .container {
     max-width: 1920px;
     background-image: linear-gradient(to top, #f1f3ff, #FFFFFF);
     padding: 1.5rem;
+    clip-path: border-box;
 }
 
 header nav {
@@ -170,9 +172,10 @@ footer nav {
 }
 
 
-@media(min-width: 750px) {
+@media screen and (min-width: 750px) {
     .container {
         padding: 2rem;
+        /* overflow: hidden; */
     }
 
     header {
@@ -210,10 +213,11 @@ footer nav {
     }
 }
 
-@media(min-width: 1225px) {
+@media screen and (min-width: 1225px) {
     .container {
         padding-left: 8rem;
         padding-right: 8rem;
+        /* overflow: hidden; */
     }
 
     header {
@@ -229,6 +233,8 @@ footer nav {
         grid-template-columns: 1fr 1fr;
         margin-bottom: 14rem;
     }
+
+
 
     main p {
         font-size: 1.125rem;
@@ -247,6 +253,7 @@ footer nav {
         position: absolute;
         top: -25rem;
         right: -32rem;
+
     }
 
     .article-container {
