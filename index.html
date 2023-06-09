@@ -5,85 +5,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
     <title>Skilled E-learning Landing Page</title>
 </head>
 
 <body>
-    <div class="container">
-        <header>
+    <div class="overflow-clip">
+        <div class="container">
+            <header>
+                <nav>
+                    <a href="#"><img src="./images/logo-dark.svg" alt="skilled logo"></a>
+                    <button class="btn-started">Get Started</button>
+                </nav>
+            </header>
+            <main>
+                <div class="container-main">
+                    <div class="container-main-info">
+                        <h1>Maximize skills, <br>minimize budget</h1>
+                        <p>Our modern courses across a range of in-demand skills will give you the
+                            knowledge you need to live the life you want.</p>
+                        <button class="btn-started-gradient-orange">Get Started</button>
+                    </div>
+                    <div class="container-main-image">
+                        <picture>
+                            <source srcset="./images/image-hero-desktop.webp" media="(min-width: 76.5625rem)">
+                            <source srcset="./images/image-hero-tablet.webp" media="(min-width: 46.875rem)">
+                            <img src="./images/image-hero-mobile.webp" alt="">
+                        </picture>
+                    </div>
+                </div>
+            </main>
+            <article class="article-container">
+                <aside>
+                    <p>Check out our most popular courses!</p>
+                </aside>
+                <article class="animation article-base-design">
+                    <img class="icons" src="./images/icon-animation.svg" alt="running man stick figure">
+                    <h2>Animation</h2>
+                    <p>Learn the latest animation techniques to create stunning motion
+                        design and captivate your audience.</p>
+                    <a href="#">Get Started</a>
+                </article>
+                <article class="design article-base-design">
+                    <img class="icons" src="./images/icon-design.svg" alt="design icon">
+                    <h2>Design</h2>
+                    <p>Create beautiful, usable interfaces to help shape the future of
+                        how the web looks.</p>
+                    <a href="#">Get Started</a>
+                </article>
+                <article class="photography article-base-design">
+                    <img class="icons" src="./images/icon-photography.svg" alt="camera">
+                    <h2>Photography</h2>
+                    <p>Explore critical fundamentals like lighting, composition, and focus
+                        to capture exceptional photos.</p>
+                    <a href="#">Get Started</a>
+                </article>
+                <article class="crypto article-base-design">
+                    <img class="icons" src="./images/icon-crypto.svg" alt="crypto icon">
+                    <h2>Crypto</h2>
+                    <p>All you need to know to get started investing in crypto. Go from beginner
+                        to advanced with this 54 hour course.</p>
+                    <a href="#">Get Started</a>
+                </article>
+                <article class="business article-base-design">
+                    <img class="icons" src="./images/icon-business.svg" alt="briefcase icon">
+                    <h2>Business</h2>
+                    <p>A step-by-step playbook to help you start, scale, and sustain your business
+                        without outside investment.</p>
+                    <a href="#">Get Started</a>
+                </article>
+            </article>
+        </div>
+        <footer>
             <nav>
-                <a href="#"><img src="./images/logo-dark.svg" alt="skilled logo"></a>
-                <button class="btn-started">Get Started</button>
+                <a href="#"><img src="./images/logo-light.svg" alt="skilled logo"></a>
+                <button class="btn-started-gradient-blue">Get Started</button>
             </nav>
-        </header>
-        <main>
-            <div class="container-main">
-                <div class="container-main-info">
-                    <h1>Maximize skills, <br>minimize budget</h1>
-                    <p>Our modern courses across a range of in-demand skills will give you the
-                        knowledge you need to live the life you want.</p>
-                    <button class="btn-started-gradient-orange">Get Started</button>
-                </div>
-                <div class="container-main-image">
-                    <picture>
-                        <source srcset="./images/image-hero-desktop.webp" media="(min-width: 1225px)">
-                        <source srcset="./images/image-hero-tablet.webp" media="(min-width: 750px)">
-                        <img src="./images/image-hero-mobile.webp" alt="">
-                    </picture>
-                </div>
-            </div>
-        </main>
-        <article class="article-container">
-            <aside>
-                <p>Check out our most popular courses!</p>
-            </aside>
-            <article class="animation article-base-design">
-                <img class="icons" src="./images/icon-animation.svg" alt="running man stick figure">
-                <h2>Animation</h2>
-                <p>Learn the latest animation techniques to create stunning motion
-                    design and captivate your audience.</p>
-                <a href="#">Get Started</a>
-            </article>
-            <article class="design article-base-design">
-                <img class="icons" src="./images/icon-design.svg" alt="design icon">
-                <h2>Design</h2>
-                <p>Create beautiful, usable interfaces to help shape the future of
-                    how the web looks.</p>
-                <a href="#">Get Started</a>
-            </article>
-            <article class="photography article-base-design">
-                <img class="icons" src="./images/icon-photography.svg" alt="camera">
-                <h2>Photography</h2>
-                <p>Explore critical fundamentals like lighting, composition, and focus
-                    to capture exceptional photos.</p>
-                <a href="#">Get Started</a>
-            </article>
-            <article class="crypto article-base-design">
-                <img class="icons" src="./images/icon-crypto.svg" alt="crypto icon">
-                <h2>Crypto</h2>
-                <p>All you need to know to get started investing in crypto. Go from beginner
-                    to advanced with this 54 hour course.</p>
-                <a href="#">Get Started</a>
-            </article>
-            <article class="business article-base-design">
-                <img class="icons" src="./images/icon-business.svg" alt="briefcase icon">
-                <h2>Business</h2>
-                <p>A step-by-step playbook to help you start, scale, and sustain your business
-                    without outside investment.</p>
-                <a href="#">Get Started</a>
-            </article>
-        </article>
+        </footer>
+
     </div>
-    <footer>
-        <nav>
-            <a href="#"><img src="./images/logo-light.svg" alt="skilled logo"></a>
-            <button class="btn-started-gradient-blue">Get Started</button>
-        </nav>
-    </footer>
-
-
 </body>
 
 </html>
